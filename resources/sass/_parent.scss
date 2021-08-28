@@ -1,0 +1,25 @@
+.app {
+  &-login-text {
+    a{
+      text-decoration: none!important;
+
+      &:hover{
+        color: red!important;
+      }
+    }
+  }
+
+  &-register-text {
+    a{
+      text-decoration: none!important;
+
+      &:hover{
+        color: red!important;
+      }
+    }
+  }
+}
+
+.device-selector-group {
+  border: 1px solid rgb(206, 212, 218);
+}
